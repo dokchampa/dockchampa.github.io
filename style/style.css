@@ -1,0 +1,221 @@
+html, body{
+  scroll-behavior: smooth;
+  background-color: red;
+  background-image: url(../images/background.jpg);
+  background-size: contain;
+
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+header{
+  position: fixed;
+  top: 10px;
+  height: 3em;
+  width: 100vw;
+  background-color: black;
+  z-index: 10000;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+marquee{
+  font-size: 2em;
+  line-height: 1.5em;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+nav{
+  position: fixed;
+  bottom: 50px;
+  width: 80vw;
+  left: 10vw;
+
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul a {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul a li{
+  width: 100%;
+  overflow: hidden;
+}
+
+nav ul a li img{
+  width: 100%;
+}
+
+
+
+#mosaiqueprojet{
+  width: 80vw;
+  margin: 200px auto;
+
+}
+
+#mosaiqueprojet .ligne{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px ;
+}
+
+#mosaiqueprojet .ligne figure{
+  width: 30%;
+  overflow: hidden;
+  position: relative;
+}
+#mosaiqueprojet .ligne figure img{
+  width: 100%;
+  object-fit: cover;
+}
+
+#mosaiqueprojet .ligne figure figcaption{
+  display: none;
+}
+
+
+#mosaiqueprojet .ligne figure:hover figcaption{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  font-size: 2em;
+  text-align: center;
+  color: blue;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+
+#mosaiqueprojet .ligne figure:hover img{
+filter: blur(4px);
+}
+
+
+/*
+
+fin page work
+
+*/
+
+#imagesprojet{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+
+#image1, #image2, #image3, #image4,#image5{
+  position: absolute;
+}
+
+
+#image1{
+  bottom: 10vh;
+  left: 10vw;
+}
+
+#image2{
+  bottom: 20vh;
+  left: 5vw;
+}
+
+#image3{
+  bottom: 30vh;
+  left: 20vw;
+}
+
+#image4{
+  bottom: 14vh;
+  left: 12vw;
+}
+
+#image5{
+  bottom: 11vh;
+  left: 30vw;
+}
+
+#image6{
+  bottom: 15vh;
+  left: 15vw;
+}
+
+#image7{
+  bottom: 30vh;
+  left: 25vw;
+}
+
+#image8{
+  bottom: 80vh;
+  left: 15vw;
+}
+
+
+
+#btnensavoirplus{
+  position: fixed;
+  right: 30px;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: blue;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#ensavoirplus{
+  display: none;
+  position: fixed;
+  right: 30px;
+  top: 100px;   
+  width: 300px;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  height: 60vh;
+  overflow: scroll;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*
+
+page menu
+
+*/
+
+
+#menubackground{
+  img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+
